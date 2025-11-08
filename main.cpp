@@ -35,7 +35,7 @@ int main(){
         }
         MoverPersonagem(labirinto, direcao, posX, posY);
         // Verifica se o personagem alcançou a saída
-        if(labirinto[posX][posY] == 3){
+        if(labirinto[0][6] == 2){
             cout << "Parabéns! Você alcançou a saída!" << endl;
             break;
         }
